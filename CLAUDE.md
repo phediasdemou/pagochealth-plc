@@ -124,14 +124,14 @@ Ops: `feature`, `fix`, `refactor`, `doc`, `adr`, `sync` (when a change also sync
 
 When a change in this repo satisfies any of these triggers, **also update the wiki in the same turn** (see `../pagochealth-wiki/CLAUDE.md` for the full policy):
 
-| Trigger | Wiki destination |
-|---|---|
-| Supplier / vendor chosen | `pagochealth-wiki/entities/` |
-| Cross-sub-system decision (protocol, shared tag map, product-line architecture) | `pagochealth-wiki/decisions/` |
-| Strategic shift (pricing, positioning, market) | `pagochealth-wiki/strategy/` |
-| Business concept emerges | `pagochealth-wiki/concepts/` |
+| Trigger | Wiki destination | Also post to Notion? |
+|---|---|---|
+| Supplier / vendor chosen | `pagochealth-wiki/entities/` | Yes (vendor tracker) |
+| Cross-sub-system decision (protocol, shared tag map, product-line architecture) | `pagochealth-wiki/decisions/` | Yes (decision log) |
+| Strategic shift (pricing, positioning, market) | `pagochealth-wiki/strategy/` | Yes (status update) |
+| Business concept emerges | `pagochealth-wiki/concepts/` | Optional |
 
-After writing to the wiki, append a `sync` entry to **both** `docs/log.md` (here) and `pagochealth-wiki/log.md`.
+After writing to the wiki, append a `sync` entry to **both** `docs/log.md` (here) and `pagochealth-wiki/log.md`. When the Notion MCP is connected, also post to the [Notion project hub](https://www.notion.so/phediasdemou/Pagoc-Health-Claude-OS-34c08dca8c3b80faa9cad41a45f1b230). When disconnected, note in the turn summary what should be posted to Notion.
 
 ---
 
