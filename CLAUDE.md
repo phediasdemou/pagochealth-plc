@@ -131,7 +131,7 @@ When a change in this repo satisfies any of these triggers, **also update the wi
 | Strategic shift (pricing, positioning, market) | `pagochealth-wiki/strategy/` | Yes (status update) |
 | Business concept emerges | `pagochealth-wiki/concepts/` | Optional |
 
-After writing to the wiki, append a `sync` entry to **both** `docs/log.md` (here) and `pagochealth-wiki/log.md`. When the Notion MCP is connected, also post to the [Notion project hub](https://www.notion.so/phediasdemou/Pagoc-Health-Claude-OS-34c08dca8c3b80faa9cad41a45f1b230). When disconnected, note in the turn summary what should be posted to Notion.
+After writing to the wiki, append a `sync` entry to **both** `docs/log.md` (here) and `pagochealth-wiki/log.md`. When the Notion MCP is connected, also post to the [Notion project hub](https://www.notion.so/phediasdemou/Pagoc-Health-a0342887d008491d85752b6a559bc1d3). When disconnected, note in the turn summary what should be posted to Notion.
 
 ---
 
